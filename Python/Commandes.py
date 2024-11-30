@@ -292,9 +292,6 @@ def launch_interface():
             with gr.Column():
                 gr.Markdown("**Commandes du navigateur Web**")
                 gr.Markdown("1. 📢 Ouvre la mosaïque\n2. 📢 Ouvre Youtube\n3. 📢 Ouvre Facebook\n4. 📢 Ouvre Plex\n5. 📢 Ouvre le portail web\n6. \n7. \n8.")
-            with gr.Column():
-                gr.Markdown("**Commandes TV Web**")
-                gr.Markdown("1. 📢 Ouvre TF1\n2. 📢 Ouvre France 2\n3. 📢 Ouvre France 3\n4. 📢 Ouvre France 24\n5. 📢 Ouvre CNews\n6. 📢 Ouvre C8\n7. 📢 Ouvre W9\n8. 📢 Ouvre M6")
 
     return interface
 
