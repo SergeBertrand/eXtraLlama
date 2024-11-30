@@ -27,6 +27,9 @@ Portail local UI Gradio pour Ollama & ComfyUI
 
 - Llama3.1
 - minicpm-v
+- llava
+- llava-llama3
+- nomic-embed-text
 - Mistral
 - qwen2.5-coder
 
@@ -82,6 +85,12 @@ Portail local UI Gradio pour Ollama & ComfyUI
      git clone https://github.com/SergeBertrand/eXtraLlama.git %userfile%\eXtraLlama
      ```
 
+Lancer une première fois le fichier DEMARRER.bat pour la création des icones sur le bureau
+ - Raccouci Portail IA eXtra Llama (Démarrer le portail et ouvrir dans le navigateur)
+ - Raccouci ComfyUI (Ouvrir ComfyUI dans le navigateur)
+ - Raccouci Diffusions ComfyUI (Ouvrir le répertoire Output ComfyUI)
+
+
 ## Workflows ComfyUI
 
 ### Exemple de Workflow SDXL
@@ -101,6 +110,11 @@ Portail local UI Gradio pour Ollama & ComfyUI
 ### Exemple de Workflow Flux
 
 ![Flux-Dev](Fichiers/Workflows/Flux-Dev.png)
+
+### Exemple de Workflow FaceSwap
+
+![FaceSwap](Fichiers/Workflows/FaceSwap.png)
+
 
 ## Contributions
 

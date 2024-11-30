@@ -6,7 +6,7 @@ import ollama
 from typing import List, Dict  # Importer List et Dict pour les annotations de type
 
 # Liste des modèles disponibles pour l'utilisateur
-available_models = ["llama3.2-vision", "minicpm-v", "llava", "bakllava", "llava-llama3", "llava-phi3", "llama3.2"]
+available_models = ["minicpm-v", "llama3.2-vision", "llava", "bakllava", "llava-llama3", "llava-phi3"]
 
 # Fonction pour récupérer les modèles installés, en filtrant les erreurs de console
 def get_installed_models():
@@ -85,7 +85,6 @@ def generate_response(msg: str, history: List[Dict[str, str]], system_prompt: st
 # Interface Gradio
 def launch_interface():
     with gr.Blocks() as interface:
-        gr.Markdown("## Interagir avec Ollama")
         with gr.Row():
             with gr.Column(scale=1):
                 model_selection = gr.Dropdown(
