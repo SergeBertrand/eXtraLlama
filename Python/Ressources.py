@@ -21,68 +21,30 @@ UNET_URLS = {
     "": "",
     "flux1-dev.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/unet/flux1-dev.safetensors",
     "flux1-schnell.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/unet/flux1-schnell.safetensors",
-    "flux1-dev-bnb-nf4.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/unet/flux1-dev-bnb-nf4.safetensors",
-    "flux1-schnell-bnb-nf4.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/unet/flux1-schnell-bnb-nf4.safetensors",
     "flux1-dev-fp8.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/unet/flux1-dev-fp8.safetensors"
 }
 
 CHECKPOINT_URLS = {
     "": "",
-    "animagineXLV31_v31.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/checkpoints/animagineXLV31_v31.safetensors",
     "animaPencilXLv500.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/checkpoints/animaPencilXLv500.safetensors",
     "atomixXL_v40.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/checkpoints/atomixXL_v40.safetensors",
     "copaxTimelessv12.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/checkpoints/copaxTimelessv12.safetensors",
     "dreamshaperXLv21.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/checkpoints/dreamshaperXLv21.safetensors",
     "juggernautXL_v8Rundiffusion.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/checkpoints/juggernautXL_v8Rundiffusion.safetensors",
     "leosamsHelloworldXL_helloworldXL70.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/checkpoints/leosamsHelloworldXL_helloworldXL70.safetensors",
-    "protovisionXLHighFidelity3D_releaseV660Bakedvae.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/checkpoints/protovisionXLHighFidelity3D_releaseV660Bakedvae.safetensors",
     "Realistic5v5.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/checkpoints/Realistic5v5.safetensors",
-    "realisticStockPhotov20.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/checkpoints/realisticStockPhotov20.safetensors",
-    "rundiffusionXL.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/checkpoints/rundiffusionXL.safetensors",
     "samaritan3dCartoon_v40SDXL.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/checkpoints/samaritan3dCartoon_v40SDXL.safetensors",
-    "sd_xl_base_1.0_0.9vae.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/checkpoints/sd_xl_base_1.0_0.9vae.safetensors",
-    "sd_xl_refiner_1.0_0.9vae.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/checkpoints/sd_xl_refiner_1.0_0.9vae.safetensors",
     "sd3_medium.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/checkpoints/sd3_medium.safetensors",
-    "v1-5-pruned-emaonly.ckpt": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/checkpoints/v1-5-pruned-emaonly.ckpt"
-}
-
-LORA_URLS = {
-    "": "",
-    "aidmaFluxStyleXL-v0.2.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/aidmaFluxStyleXL-v0.2.safetensors",
-    "anime_lora.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/anime_lora.safetensors",
-    "anime_lora_comfy_converted.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/anime_lora_comfy_converted.safetensors",
-    "art_lora_comfy_converted.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/art_lora_comfy_converted.safetensors",
-    "Cartoon_figures.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/Cartoon_figures.safetensors",
-    "Cartoon_cute_sticker_v1.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/Cartoon_cute_sticker_v1.safetensors",
-    "Darth_Vader.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/Darth_Vader.safetensors",
-    "Darth_Vader-KK77-V1.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/Darth_Vader-KK77-V1.safetensors",
-    "disney_lora_comfy_converted.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/disney_lora_comfy_converted.safetensors",
-    "Dodge_Charger_General_Lee-10.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/Dodge_Charger_General_Lee-10.safetensors",
-    "flux_realism_lora.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/flux_realism_lora.safetensors",
-    "locon_michael_v1_from_v1_64_32.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/locon_michael_v1_from_v1_64_32.safetensors",
-    "macron2024_V2.1.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/macron2024_V2.1.safetensors",
-    "Michael_Jordan.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/Michael_Jordan.safetensors",
-    "mjv6_lora_comfy_converted.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/mjv6_lora_comfy_converted.safetensors",
-    "Samaritan 3d Cartoon SDXL.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/Samaritan 3d Cartoon SDXL.safetensors",
-    "scenery_lora_comfy_converted.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/scenery_lora_comfy_converted.safetensors",
-    "sd_xl_offset_example-lora_1.0.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/sd_xl_offset_example-lora_1.0.safetensors",
-    "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors",
-    "SDXL_FILM_PHOTOGRAPHY_STYLE_V1.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/SDXL_FILM_PHOTOGRAPHY_STYLE_V1.safetensors",
-    "sdxl_lcm_lora.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/sdxl_lcm_lora.safetensors",
-    "sketch_style.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/sketch_style.safetensors",
-    "sketch_sumiao.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/sketch_sumiao.safetensors",
-    "sketch_suxieren.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/sketch_suxieren.safetensors",
-    "Star_Wars_Things.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/Star_Wars_Things.safetensors",
-    "starcitizen.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/starcitizen.safetensors",
-    "SuperKittV2.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/SuperKittV2.safetensors",
-    "Tesla_Model_3.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/Tesla_Model_3.safetensors",
-    "wanostyle_2_offset.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/loras/wanostyle_2_offset.safetensors"
+    "sd3.5_medium.safetensors" : "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/checkpoints/sd3.5_medium.safetensors",
+    "sd3.5_large.safetensors" : "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/checkpoints/sd3.5_large.safetensors",
+    "sd3.5_large_fp8_scaled.safetensors" : "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/checkpoints/sd3.5_large_fp8_scaled.safetensors",
+    "sd3.5_medium.safetensors" : "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/checkpoints/sd3.5_medium.safetensors",
+    "sd3_medium.safetensors" : "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/checkpoints/sd3_medium.safetensors"
 }
 
 VAE_URLS = {
     "": "",
     "ae.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/vae/ae.safetensors",
-    "ponyDiffusionV6XL_vae.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/vae/ponyDiffusionV6XL_vae.safetensors",
     "sdxl_vae.safetensors": "https://monpetitcoindeweb.myqnapcloud.com:8081/diffusionia/vae/sdxl_vae.safetensors"
 }
 

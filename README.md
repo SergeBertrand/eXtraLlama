@@ -63,16 +63,33 @@ Portail local UI Gradio pour Ollama & ComfyUI
 - clip_vision_g.safetensors
 - clip_vision_vit_h.safetensors
 
+#### Dans le dossier : `ComfyUI\ComfyUI\controlnet`
+
+- controlnet.safetensors
+- fooocus_ip_negative.safetensors
+- ip-adapter-plus_sdxl_vit-h.bin
+
 #### Dans le dossier : `ComfyUI\ComfyUI\unet`
 
 - flux1-dev.safetensors
 - flux1-schnell.safetensors
 - flux1-dev-fp8.safetensors
 
+#### Dans le dossier : `ComfyUI\ComfyUI\upscale_models`
+
+- 4xNMKDSuperscale.pt
+- 8xNMKDSuperscale.pt
+- fooocus_upscaler.bin
+
+#### Dans le dossier : `ComfyUI\ComfyUI\vae`
+
+- ae.safetensors
+- sdxl_vae.safetensors
+
 #### Dans le dossier : `ComfyUI\ComfyUI\Custom_nodes`
 
-- ComfyUI-Manager
-- comfyui-reactor-node
+- [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager)
+- [comfyui-reactor-node](https://github.com/Gourieff/comfyui-reactor-node)
 
 ## Installation
 
