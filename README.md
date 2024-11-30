@@ -4,55 +4,55 @@
 
 Portail local UI Gradio pour Ollama & ComfyUI
 
- - Chatbot
- - PDF 
- - Transcript
- - Commandes
- - Vision
- - Diffusions (SDXL/SD3.x/Flux1/FaceSwap)
- - Ressources (Téléchargements)
+- Chatbot
+- PDF
+- Transcript
+- Commandes
+- Vision
+- Diffusions (SDXL/SD3.x/Flux1/FaceSwap)
+- Ressources (Téléchargements)
 
-### Portail 
+### Portail
 
 ![Portail](Fichiers/Documents/Portail.png)
 
-### Chatbot 
+### Chatbot
 
 ![Chatbot](Fichiers/Documents/Chatbot.png)
 
-### PDF 
+### PDF
 
 ![PDF](Fichiers/Documents/PDF.png)
 
-### Transcript 
+### Transcript
 
 ![Transcript](Fichiers/Documents/Transcript.png)
 
-### Commandes 
+### Commandes
 
 ![Commandes](Fichiers/Documents/Commandes.png)
 
-### Vision 
+### Vision
 
 ![Vision](Fichiers/Documents/Vision.png)
 
-### SDXL 
+### SDXL
 
 ![SDXL](Fichiers/Documents/SDXL.png)
 
-### SD3.x 
+### SD3.x
 
 ![SD3.x](Fichiers/Documents/SD3.x.png)
 
-### Flux1 
+### Flux1
 
 ![Flux1](Fichiers/Documents/Flux1.png)
 
-### FaceSwap 
+### FaceSwap
 
 ![FaceSwap](Fichiers/Documents/FaceSwap.png)
 
-### Ressources 
+### Ressources
 
 ![Ressources](Fichiers/Documents/Ressources.png)
 
@@ -128,7 +128,7 @@ Portail local UI Gradio pour Ollama & ComfyUI
 - ae.safetensors
 - sdxl_vae.safetensors
 
-### Custom nodes ComfyUI
+### Custom Nodes ComfyUI
 
 #### Dans le dossier : `ComfyUI\ComfyUI\Custom_nodes`
 
@@ -138,20 +138,22 @@ Portail local UI Gradio pour Ollama & ComfyUI
 ## Installation
 
 1. **Télécharger le projet** :
-   - Renommer et copier à la racine du dossier utilisateur : `%userfile%\eXtraLlama`
+   - Renommer le dossier `eXtraLlama` et le copier à la racine du dossier utilisateur : `%userfile%\eXtraLlama`
+
+Ou bien
 
 2. **Utiliser Git pour cloner le projet** :
-   - Cloner le projet à la racine du dossier utilisateur :
+   - Cloner le projet à la racine du dossier utilisateur : `%userfile%\eXtraLlama`
      ```sh
-     git clone https://github.com/SergeBertrand/eXtraLlama.git %userfile%\eXtraLlama
+     git clone https://github.com/SergeBertrand/eXtraLlama.git
      ```
 
-Lancer une première fois le fichier DEMARRER.bat pour la création des icones sur le bureau
- - Raccouci Portail IA eXtra Llama (Démarrer le portail et ouvrir dans le navigateur)
- - Raccouci ComfyUI (Ouvrir ComfyUI dans le navigateur)
- - Raccouci Diffusions ComfyUI (Ouvrir le répertoire Output ComfyUI)
+Lancer une première fois le fichier `DEMARRER.bat` pour la création des icônes sur le bureau :
+- Raccourci Portail IA eXtra Llama (Démarrer le portail et ouvre dans le navigateur)
+- Raccourci ComfyUI (Ouvre ComfyUI dans le navigateur)
+- Raccourci Diffusions ComfyUI (Ouvre le répertoire des images "Output")
 
-Patientez le temps du téléchargement des fichiers requis. Vous pouvez suivre le démarrage dans le terminal Portail.py 
+Patientez le temps du téléchargement des fichiers requis. Vous pouvez suivre le démarrage dans le terminal `Portail.py`.
 
 ## Workflows ComfyUI
 
@@ -177,7 +179,6 @@ Patientez le temps du téléchargement des fichiers requis. Vous pouvez suivre l
 
 ![FaceSwap](Fichiers/Workflows/FaceSwap.png)
 
-
 ## Contributions
 
 Nous encourageons les contributions de la communauté pour améliorer ce projet. Si vous souhaitez contribuer, veuillez suivre ces étapes :
@@ -190,3 +191,25 @@ Nous encourageons les contributions de la communauté pour améliorer ce projet.
 ## Licence
 
 Ce projet est distribué sous la licence MIT. Vous êtes libre d'utiliser, de modifier et de distribuer ce code à condition de conserver la mention de la licence originale. Pour plus de détails, consultez le fichier `LICENSE`.
+
+ 
+
+ ## Remerciements
+
+Un GRAND MERCI à tous et toutes :
+
+- [Python](https://www.python.org/)
+- [Gradio](https://gradio.app/)
+- [Ollama](https://ollama.com/)
+- [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
+- [Meta](https://about.facebook.com/meta/)
+- [Mistral](https://mistral.ai/)
+- [Stable Diffusion](https://stability.ai/)
+- [Black Forest Labs](https://blackforestlabs.ai/)
+- [Hugging Face](https://huggingface.co/)
+- [Civitai](https://civitai.com/)
+- [LMarena](https://lmarena.ai)
+- [GitHub](https://github.com/)
+
+
+Codé par 0_obeWAN avec mon ❤️ et mon 🧠 pour Kaïto. 
