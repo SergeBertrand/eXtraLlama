@@ -107,7 +107,7 @@ feature_blocks_html = """
             <div class="feature-emoji" style="font-size: 35px; margin-right: 5px;">🖼️</div>
             <h3 style="color: #4f46e5; font-weight: bolder; margin: 0; font-size: 1.5em;">SDXL</h3>
         </div>
-        <p style="color: #9ca3af; font-weight: bold;">Modèle avancé de diffusion, génère des images haute qualité pour des créations artistiques et graphiques sophistiquées.</p>
+        <p style="color: #9ca3af; font-weight: bold;">Modèle Stable diffusion, génère des images haute qualité pour des créations artistiques et graphiques sophistiquées.</p>
     </div>
 
     <div class="feature-block" style="background-color: Transparent;">
@@ -115,15 +115,23 @@ feature_blocks_html = """
             <div class="feature-emoji" style="font-size: 35px; margin-right: 5px;">🖼️</div>
             <h3 style="color: #4f46e5; font-weight: bolder; margin: 0; font-size: 1.5em;">SD3.x</h3>
         </div>
-        <p style="color: #9ca3af; font-weight: bold;">Nouveaux modèles avancés de diffusion, génère des images haute qualité pour des créations artistiques et graphiques sophistiquées.</p>
+        <p style="color: #9ca3af; font-weight: bold;">Nouveaux modèles avancés de Stable diffusion, génère des images haute qualité pour des créations avec support du texte.</p>
     </div>
 
     <div class="feature-block" style="background-color: Transparent;">
         <div class="emoji-title" style="display: flex; align-items: center;">
             <div class="feature-emoji" style="font-size: 35px; margin-right: 5px;">🎴</div>
-            <h3 style="color: #4f46e5; font-weight: bolder; margin: 0; font-size: 1.5em;">Flux.1 Schnell</h3>
+            <h3 style="color: #4f46e5; font-weight: bolder; margin: 0; font-size: 1.5em;">Flux.1</h3>
         </div>
-        <p style="color: #9ca3af; font-weight: bold;">Modèle avancé de diffusion, variante optimisée de Flux.1, conçue pour une exécution rapide et des performances élevées.</p>
+        <p style="color: #9ca3af; font-weight: bold;">Modèle avancé de diffusion de Black Forest Labs,  offrant une qualité d’image exceptionnelle et une précision élevée.</p>
+    </div>
+
+    <div class="feature-block" style="background-color: Transparent;">
+        <div class="emoji-title" style="display: flex; align-items: center;">
+            <div class="feature-emoji" style="font-size: 35px; margin-right: 5px;">🎴</div>
+            <h3 style="color: #4f46e5; font-weight: bolder; margin: 0; font-size: 1.5em;">FaceSwap</h3>
+        </div>
+        <p style="color: #9ca3af; font-weight: bold;">Modèle avancé de diffusion conçu pour échanger les visages de différentes personnes dans des photos.</p>
     </div>
 
     <div class="feature-block" style="background-color: Transparent;">

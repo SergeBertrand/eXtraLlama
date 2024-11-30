@@ -51,33 +51,19 @@ COMMANDS = {
     'ouvre le gestionnaire des tâches': open_task_manager,    
     'ouvre le panneau des configurations': lambda: (subprocess.Popen('control.exe')),
     'verrouille la session': lambda: (subprocess.Popen('rundll32.exe user32.dll, LockWorkStation')),
-    'ouvre le dossier des téléchargements': lambda: (None, open_folder(r"%USERPROFILE%\Downloads")),
+    'ouvre les téléchargements': lambda: (None, open_folder(r"%USERPROFILE%\Downloads")),
     'ouvre le dossier des documents': lambda: (None, open_folder(r"%USERPROFILE%\Documents")),
     'ouvre le dossier des images': lambda: (None, open_folder(r"%USERPROFILE%\Pictures")),
     'ouvre le dossier vidéo': lambda: (None, open_folder(r"%USERPROFILE%\Videos")),
     'ouvre le dossier utilisateur': lambda: (None, open_folder(r"%USERPROFILE%")),
 # commandes Web
-    'ouvre la mosaïque': lambda: (subprocess.Popen('start iexplore.exe https://monpetitcoindeweb.myqnapcloud.com:8081/dashboardtv/', shell=True), "La mosaïque a été ouverte dans le navigateur."),
     'ouvre youtube': lambda: (subprocess.Popen('start iexplore.exe https://www.youtube.com/feed/subscriptions/', shell=True), "youtube a été ouvert dans le navigateur."),
     'ouvre facebook': lambda: (subprocess.Popen('start iexplore.exe https://www.facebook.com/?sk=h_chr', shell=True), "facebook a été ouvert dans le navigateur."),
     'ouvre plex': lambda: (subprocess.Popen('start iexplore.exe https://app.plex.tv/desktop/#!/', shell=True), "plex a été ouvert dans le navigateur."),
-    'ouvre le portail web': lambda: (subprocess.Popen('start iexplore.exe https://monpetitcoindeweb.myqnapcloud.com:8081/', shell=True), "votre portail web a été ouverte dans le navigateur."),
 
 # commandes télé
     'ouvre france 24': lambda: (subprocess.Popen('start iexplore.exe https://www.youtube.com/embed/l8PMl7tUDIE?autoplay=1&mute=1', shell=True), "france 24 a été ouverte dans le navigateur."),
     'ouvre cnews': lambda: (subprocess.Popen('start iexplore.exe https://www.dailymotion.com/embed/video/x3b68jn?autoplay=1', shell=True), "cnews a été ouverte dans le navigateur."),
-    'ouvre tf1': lambda: (subprocess.Popen('start iexplore.exe https://gogostream.org/chaine/tf1.php', shell=True), "tf1 a été ouverte dans le navigateur."),
-    'ouvre france 2': lambda: (subprocess.Popen('start iexplore.exe https://direct-streamfr.online/player.php?id=48', shell=True), "france 2 a été ouverte dans le navigateur."),
-    'ouvre france 3': lambda: (subprocess.Popen('start iexplore.exe https://direct-streamfr.online/player.php?id=49', shell=True), "france 3 a été ouverte dans le navigateur."),
-    'ouvre c8': lambda: (subprocess.Popen('start iexplore.exe https://gogostream.org/chaine/c8.php', shell=True), "c8 a été ouverte dans le navigateur."),
-    'ouvre w9': lambda: (subprocess.Popen('start iexplore.exe https://elitegol.lat/lec/1/26', shell=True), "w9 a été ouverte dans le navigateur."),
-    'ouvre m6': lambda: (subprocess.Popen('start iexplore.exe https://elitegol.lat/lec/1/25', shell=True), "m6 a été ouverte dans le navigateur."),
-    'ouvre dazn': lambda: (subprocess.Popen('start iexplore.exe https://dlhd.so/embed/stream-230.php', shell=True), "dazn a été ouverte dans le navigateur."),
-    'ouvre rmc sport 1': lambda: (subprocess.Popen('start iexplore.exe https://dlhd.so/embed/stream-119.php', shell=True), "rmc sport 1 a été ouverte dans le navigateur."),
-    'ouvre rmc sport 2': lambda: (subprocess.Popen('start iexplore.exe https://dlhd.so/embed/stream-120.php', shell=True), "rmc sport 2 a été ouverte dans le navigateur."),
-    'ouvre bein sport 1': lambda: (subprocess.Popen('start iexplore.exe https://dlhd.so/embed/stream-116.php', shell=True), "bein sport 1 a été ouverte dans le navigateur."),
-    'ouvre bein sport 2': lambda: (subprocess.Popen('start iexplore.exe https://dlhd.so/embed/stream-117.php', shell=True), "bein sport 2 a été ouverte dans le navigateur."),
-    'ouvre bein sport 3': lambda: (subprocess.Popen('start iexplore.exe https://dlhd.so/embed/stream-118.php', shell=True), "bein sport 3 a été ouverte dans le navigateur."),
 }
 
 def play_music():
@@ -302,7 +288,7 @@ def launch_interface():
                 gr.Markdown("1. 📢 Ouvre la calculette\n2. 📢 Ouvre le bloc-notes\n3. 📢 Ouvre outlook\n4. 📢 Mets de la musique\n5. \n6. \n7. \n8.")
             with gr.Column():
                 gr.Markdown("**Commandes du système Windows**")
-                gr.Markdown("1. 📢 Ouvre le gestionnaire des tâches\n2. 📢 Ouvre le panneau des configurations\n3. 📢 Verrouille la session\n4. 📢 Ouvre le dossier des téléchargements\n5. 📢 Ouvre le dossier des documents\n6. 📢 Ouvre le dossier des images\n7. 📢 Ouvre le dossier vidéo\n8. 📢 Ouvre le dossier utilisateur")
+                gr.Markdown("1. 📢 Ouvre le gestionnaire des tâches\n2. 📢 Ouvre le panneau des configurations\n3. 📢 Verrouille la session\n4. 📢 Ouvre les téléchargements\n5. 📢 Ouvre le dossier des documents\n6. 📢 Ouvre le dossier des images\n7. 📢 Ouvre le dossier vidéo\n8. 📢 Ouvre le dossier utilisateur")
             with gr.Column():
                 gr.Markdown("**Commandes du navigateur Web**")
                 gr.Markdown("1. 📢 Ouvre la mosaïque\n2. 📢 Ouvre Youtube\n3. 📢 Ouvre Facebook\n4. 📢 Ouvre Plex\n5. 📢 Ouvre le portail web\n6. \n7. \n8.")

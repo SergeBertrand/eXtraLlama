@@ -2,7 +2,17 @@
 
 ## Description
 
-Portail UI Gradio pour Ollama & ComfyUI
+Portail local UI Gradio pour Ollama & ComfyUI
+
+ - Chatbot
+ - PDF 
+ - Transcript
+ - Commandes
+ - Vision
+ - Diffusions
+ - Ressources
+
+ ![eXtraLlama](Fichiers/Documents/eXtraLlama.png)
 
 ## Prérequis
 
@@ -16,9 +26,9 @@ Portail UI Gradio pour Ollama & ComfyUI
 ### Modèles Ollama
 
 - Llama3.1
-- Llama3.2
-- Llama3.2-vision
+- minicpm-v
 - Mistral
+- qwen2.5-coder
 
 ### Modèles & Custom Nodes pour ComfyUI
 
@@ -88,7 +98,7 @@ Portail UI Gradio pour Ollama & ComfyUI
 
 ![SD3.5_Large](Fichiers/Workflows/SD3.5_Large.png)
 
-### Exemple de Workflow 2
+### Exemple de Workflow Flux
 
 ![Flux-Dev](Fichiers/Workflows/Flux-Dev.png)
 
