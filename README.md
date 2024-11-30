@@ -143,7 +143,7 @@ Portail local UI Gradio pour Ollama & ComfyUI
 Ou bien
 
 2. **Utiliser Git pour cloner le projet** :
-   - Cloner le projet à la racine du dossier utilisateur : `%userfile%\eXtraLlama`
+   - Cloner le projet à la racine du dossier utilisateur : `%userprofile%\eXtraLlama`
      ```sh
      git clone https://github.com/SergeBertrand/eXtraLlama.git
      ```
