@@ -62,7 +62,7 @@ Portail local UI Gradio pour Ollama & ComfyUI
 - Python 3.10
 - CUDA 11.8.0
 - Visual Studio
-- ComfyUI Portable (`%profileuser%\ComfyUI\ComfyUI`)
+- ComfyUI Portable (`%userprofile%\ComfyUI\ComfyUI`)
 - Ollama
 
 ### Modèles Ollama
