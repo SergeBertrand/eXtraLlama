@@ -33,7 +33,7 @@ Portail local UI Gradio pour Ollama & ComfyUI
 - Mistral
 - qwen2.5-coder
 
-### Modèles & Custom Nodes pour ComfyUI
+### Modèles ComfyUI depuis l'onglet Ressources
 
 #### Dans le dossier : `ComfyUI\ComfyUI\models\checkpoints`
 
@@ -86,6 +86,8 @@ Portail local UI Gradio pour Ollama & ComfyUI
 - ae.safetensors
 - sdxl_vae.safetensors
 
+### Custom nodes ComfyUI
+
 #### Dans le dossier : `ComfyUI\ComfyUI\Custom_nodes`
 
 - [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager)
@@ -107,6 +109,7 @@ Lancer une première fois le fichier DEMARRER.bat pour la création des icones s
  - Raccouci ComfyUI (Ouvrir ComfyUI dans le navigateur)
  - Raccouci Diffusions ComfyUI (Ouvrir le répertoire Output ComfyUI)
 
+Patientez le temps du téléchargement des fichiers requis. Vous pouvez suivre le démarrage dans le terminal Portail.py 
 
 ## Workflows ComfyUI
 

@@ -10,7 +10,6 @@ comfyUI_path = os.path.expandvars(r"%userprofile%\ComfyUI\ComfyUI")
 
 UNET_DIR = os.path.join(comfyUI_path, "models", "unet")
 CHECKPOINT_DIR = os.path.join(comfyUI_path, "models", "checkpoints")
-LORA_DIR = os.path.join(comfyUI_path, "models", "loras")
 VAE_DIR = os.path.join(comfyUI_path, "models", "vae")
 CLIP_DIR = os.path.join(comfyUI_path, "models", "clip")
 CLIP_VISION_DIR = os.path.join(comfyUI_path, "models", "clip_vision")
@@ -219,13 +218,11 @@ def download_file(url, save_dir):
         yield f"Échec du téléchargement pour {local_filename}: {str(e)}"
 
 # Gradio interface
-def download_selected(unet, checkpoint, lora, vae, clip, clip_vision, upscale, ollama):
+def download_selected(unet, checkpoint, vae, clip, clip_vision, upscale, ollama):
     if unet:
         yield from download_file(UNET_URLS[unet], UNET_DIR)
     if checkpoint:
         yield from download_file(CHECKPOINT_URLS[checkpoint], CHECKPOINT_DIR)
-    if lora:
-        yield from download_file(LORA_URLS[lora], LORA_DIR)
     if vae:
         yield from download_file(VAE_URLS[vae], VAE_DIR)
     if clip:
@@ -258,7 +255,6 @@ def launch_interface():
                 with gr.Accordion("🌐 Téléchargements des modèles de diffusion pour Comfy UI", open=False):
                     unet_dropdown = gr.Dropdown(list(UNET_URLS.keys()), label="📥 Télécharger des modèles Flux.1 dans le dossier unet", allow_custom_value=True)
                     checkpoint_dropdown = gr.Dropdown(list(CHECKPOINT_URLS.keys()), label="📥 Télécharger des modèles SDXL dans le dossier checkpoints", allow_custom_value=True)
-                    lora_dropdown = gr.Dropdown(list(LORA_URLS.keys()), label="📥 Télécharger des modèles Lora dans le dossier loras", allow_custom_value=True)
                     vae_dropdown = gr.Dropdown(list(VAE_URLS.keys()), label="📥 Télécharger des modèles VAE dans le dossier vae", allow_custom_value=True)
                     clip_dropdown = gr.Dropdown(list(CLIP_URLS.keys()), label="📥 Télécharger des modèles Clip dans le dossier clip", allow_custom_value=True)
                     clip_vision_dropdown = gr.Dropdown(list(CLIP_VISION_URLS.keys()), label="📥 Télécharger des modèles Clip Vision dans le dossier clip_vision", allow_custom_value=True)
@@ -280,7 +276,7 @@ def launch_interface():
                 ## Modèles LLM & Diffusion
                 - Hugging Face : [Modèles](https://huggingface.co/models)
                 - Ollama : [Modèles](https://ollama.ai/library)
-                - Civitai : [Flux.1](https://civitai.com/search/models?modelType=LORA&modelType=Checkpoint&sortBy=models_v9&query=flux.1) [SDXL](https://civitai.com/search/models?modelType=Checkpoint&sortBy=models_v9&query=SDXL) [lora](https://civitai.com/search/models?modelType=LORA&sortBy=models_v9&query=lora)
+                - Civitai : [Flux.1](https://civitai.com/search/models?modelType=LORA&modelType=Checkpoint&sortBy=models_v9&query=flux.1) [SDXL](https://civitai.com/search/models?modelType=Checkpoint&sortBy=models_v9&query=SDXL)
                             
                 ## Liens Utiles
                 - [GitHub de Gradio](https://github.com/gradio-app/gradio)
@@ -290,7 +286,7 @@ def launch_interface():
                 """)
 
         download_button.click(download_selected, 
-                      [unet_dropdown, checkpoint_dropdown, lora_dropdown, vae_dropdown, clip_dropdown, clip_vision_dropdown, upscale_dropdown, ollama_dropdown], 
+                      [unet_dropdown, checkpoint_dropdown, vae_dropdown, clip_dropdown, clip_vision_dropdown, upscale_dropdown, ollama_dropdown], 
                       outputs=download_output, 
                       show_progress=True)  # Activer le suivi de progression
 
