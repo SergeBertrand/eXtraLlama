@@ -196,7 +196,7 @@ Ce projet est distribué sous la licence MIT. Vous êtes libre d'utiliser, de mo
 
  ## Remerciements
 
-Un GRAND MERCI à tous et toutes :
+Un GRAND MERCI à toutes et tous :
 
 - [Python](https://www.python.org/)
 - [Gradio](https://gradio.app/)
