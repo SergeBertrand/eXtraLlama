@@ -9,10 +9,52 @@ Portail local UI Gradio pour Ollama & ComfyUI
  - Transcript
  - Commandes
  - Vision
- - Diffusions
- - Ressources
+ - Diffusions (SDXL/SD3.x/Flux1/FaceSwap)
+ - Ressources (Téléchargements)
 
- ![eXtraLlama](Fichiers/Documents/eXtraLlama.png)
+### Portail 
+
+![Portail](Fichiers/Documents/Portail.png)
+
+### Chatbot 
+
+![Chatbot](Fichiers/Documents/Chatbot.png)
+
+### PDF 
+
+![PDF](Fichiers/Documents/PDF.png)
+
+### Transcript 
+
+![Transcript](Fichiers/Documents/Transcript.png)
+
+### Commandes 
+
+![Commandes](Fichiers/Documents/Commandes.png)
+
+### Vision 
+
+![Vision](Fichiers/Documents/Vision.png)
+
+### SDXL 
+
+![SDXL](Fichiers/Documents/SDXL.png)
+
+### SD3.x 
+
+![SD3.x](Fichiers/Documents/SD3.x.png)
+
+### Flux1 
+
+![Flux1](Fichiers/Documents/Flux1.png)
+
+### FaceSwap 
+
+![FaceSwap](Fichiers/Documents/FaceSwap.png)
+
+### Ressources 
+
+![Ressources](Fichiers/Documents/Ressources.png)
 
 ## Prérequis
 
