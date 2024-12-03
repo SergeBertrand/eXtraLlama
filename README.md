@@ -212,4 +212,4 @@ Un GRAND MERCI à toutes et tous :
 - [GitHub](https://github.com/)
 
 
-Codé par 0_obeWAN pour Kaïto. 
+Codé par 0_obeWAN pour Kaito avec ❤️+🧠 
